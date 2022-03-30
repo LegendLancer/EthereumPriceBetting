@@ -1,0 +1,10 @@
+{
+  "betters": [
+    "0x23507516EC572688d97132Ced7C13952a58Bd889",
+    "0xFBfFafc3C61566cec082c9A2884543d9de35B009"
+  ],
+  "betEndDate": "2022-03-23 03:16:00",
+  "betAmounts": [0.01, 0.02],
+  "betPositions": [0, 1],
+  "pivotPrice": 3000
+}

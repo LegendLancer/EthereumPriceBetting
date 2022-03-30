@@ -1,0 +1,1 @@
+export const betContractAddress = '0x295107cb470856BA411bCD6DBd803D9d228faa75';

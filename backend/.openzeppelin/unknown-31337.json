@@ -1,0 +1,646 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x0135E73A22d111B9950C719d6b5588663FAcc247",
+    "txHash": "0xdeb874de8075aead4566843fadc1bc21517de36f85c77a6ddbf6445abc8c4ca0"
+  },
+  "proxies": [
+    {
+      "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      "txHash": "0xbabb2efeb7e5922fc9c57a2fdefa491a335064f7956ce5ea43ac0dac1e1fde87",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6B66218a2721c7C408741bE7C16e4c04C5EBEe71",
+      "txHash": "0x148567723d3ee721f9c892aa3e41ae0ed49e1a5690c1c0bacabbc4836fc4bb0e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1Cf34658E7Df9a46AD61486d007A8D62aeC9891e",
+      "txHash": "0xa876b71a7cc4b1f99628da8f7bc00719dbd2315ab0b97a3f0a0c3f9ad760232c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF628cF1b96164Bf31EF89ae293cb02169BcDE618",
+      "txHash": "0x6a03ab700284307d2221ca3d2ba8cff08db5172ff5458f350e6d2b54ae904083",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x691209DE51EB6b70572382c47d82A9e746f19E4A",
+      "txHash": "0x77821cc7edd33a7cd5d6c1866e86bef6735219caf476743dbdf878f8f8dfd7f0",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6A655aCBeDF26a708a0204Bdf3603C7c6a159417",
+      "txHash": "0x2eeb1300b3a759f6140974d90b88de8213263fa18b08c013de95673923e0f936",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1c22D5609768B569af22F4842E5FCF81231E1301",
+      "txHash": "0x625e4d48227a94e593682bbe3b0325b3be11341eeb6051da0d9b63379b3539c6",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x45d860cCDfD521656ABc95fa4d94eEeD66cBFAe0",
+      "txHash": "0x67cfe191b842a510ca05ff98169aaf8043725003fe5723f1446a08879bb75d31",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb3A14FB236Efed34FF583B8Ad9229DB88fc2240F",
+      "txHash": "0xa11320060e154a73bd5043aee9b40447aedd6de8ea7deba5af82dfb4bb4b27f7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x39bf36b373BB810E416D1768dE884f050aB4862c",
+      "txHash": "0x09c2a5bd45216331f7194e6b166005908072b2348f8972e5a897ce008854b873",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2c2CA631Fb7394E548f77D2b36D8CBa2b8237fbC",
+      "txHash": "0x6e7c921f4528ffdb08270b8a1af17bb7df673883a8845e62e01c28e853bee60d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x7159133205fa2FC90B2F104c2B7aae98F6fA3562",
+      "txHash": "0x195ad6bae77f6929193ff6e627c2694a1a52949cdeb37881e988a4dc5a857848",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6DDc3De75642062C0C9e4383cBa0Bc974071c78d",
+      "txHash": "0xfd9577712ac538391907f408de13c2f00619836b150fc99274fd0a7ba827b596",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "284dac2a7386b438cf92691a1b63c2da2bc1c94cd0fd3502fb9c04af31b3d32d": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0xe98609828a003e5f755f0aaca03e286e6e4d6630a3e9f34ada4a443119c6a8f2",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "oracle",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(AggregatorV3Interface)579",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:38"
+          },
+          {
+            "label": "better1",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_struct(BetInfo)608_storage",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:61"
+          },
+          {
+            "label": "better2",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_struct(BetInfo)608_storage",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:62"
+          },
+          {
+            "label": "pivotPrice",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:65"
+          },
+          {
+            "label": "totalEtherLocked",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:66"
+          },
+          {
+            "label": "endTimestamp",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:67"
+          },
+          {
+            "label": "betStatus",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_enum(Status)594",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:68"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)579": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_enum(Position)590": {
+            "label": "enum PriceBet.Position",
+            "members": [
+              "Bull",
+              "Bear",
+              "House"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_enum(Status)594": {
+            "label": "enum PriceBet.Status",
+            "members": [
+              "NOT_INITIATED",
+              "ONGOING",
+              "FINISHED"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_struct(BetInfo)608_storage": {
+            "label": "struct PriceBet.BetInfo",
+            "members": [
+              {
+                "label": "position",
+                "type": "t_enum(Position)590",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "addr",
+                "type": "t_address",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "reserveAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "depositAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "reward",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "claimed",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "de3a5fba08a04bad4567deb4ff0189344207bc75d96d7722c85fb80009063eed": {
+      "address": "0x78dA752e9dBD73a9b0C0F5ddD15e854D2B879524",
+      "txHash": "0x106ccba477cb3aaa13d6fe5ffca0ee81e6306a2e5f6744c201ab2d6052bef183",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "oracle",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(AggregatorV3Interface)530",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:38"
+          },
+          {
+            "label": "better1",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_struct(BetInfo)559_storage",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:61"
+          },
+          {
+            "label": "better2",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_struct(BetInfo)559_storage",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:62"
+          },
+          {
+            "label": "pivotPrice",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:65"
+          },
+          {
+            "label": "totalEtherLocked",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:66"
+          },
+          {
+            "label": "endTimestamp",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:67"
+          },
+          {
+            "label": "betStatus",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_enum(Status)545",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:68"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)530": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_enum(Position)541": {
+            "label": "enum PriceBet.Position",
+            "members": [
+              "Bull",
+              "Bear",
+              "House"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_enum(Status)545": {
+            "label": "enum PriceBet.Status",
+            "members": [
+              "NOT_INITIATED",
+              "ONGOING",
+              "FINISHED"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_struct(BetInfo)559_storage": {
+            "label": "struct PriceBet.BetInfo",
+            "members": [
+              {
+                "label": "position",
+                "type": "t_enum(Position)541",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "addr",
+                "type": "t_address",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "reserveAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "depositAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "reward",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "claimed",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "626dc99b4aae69fbec14878f6cf60a229003fab97b83c1b77b2380102e6b01c0": {
+      "address": "0xA337A2eb123c9fC370D62A1E19E34b109EBA387b",
+      "txHash": "0x8f65cc36c58ed93cac9c0a2884a80f1461d7275c2acc950f39bdf0e230b3230e",
+      "layout": {
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:39"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:87"
+          },
+          {
+            "label": "oracle",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(AggregatorV3Interface)580",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:39"
+          },
+          {
+            "label": "better1",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_struct(BetInfo)609_storage",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:62"
+          },
+          {
+            "label": "better2",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_struct(BetInfo)609_storage",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:63"
+          },
+          {
+            "label": "totalEtherLocked",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:66"
+          },
+          {
+            "label": "pivotPrice",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:67"
+          },
+          {
+            "label": "endTimestamp",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:68"
+          },
+          {
+            "label": "betStatus",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_enum(Status)595",
+            "contract": "PriceBet",
+            "src": "contracts\\PriceBet.sol:69"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(AggregatorV3Interface)580": {
+            "label": "contract AggregatorV3Interface",
+            "numberOfBytes": "20"
+          },
+          "t_enum(Position)591": {
+            "label": "enum PriceBet.Position",
+            "members": [
+              "Bull",
+              "Bear",
+              "House"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_enum(Status)595": {
+            "label": "enum PriceBet.Status",
+            "members": [
+              "NOT_INITIATED",
+              "ONGOING",
+              "FINISHED"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_struct(BetInfo)609_storage": {
+            "label": "struct PriceBet.BetInfo",
+            "members": [
+              {
+                "label": "position",
+                "type": "t_enum(Position)591",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "addr",
+                "type": "t_address",
+                "offset": 1,
+                "slot": "0"
+              },
+              {
+                "label": "reserveAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "depositAmount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "reward",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "claimed",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
